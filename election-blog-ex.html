@@ -386,37 +386,31 @@ library(tidyverse)</code></pre>
 ## 1 Alabama    89226            1
 ## 2 Alabama    86931            2
 ## 3 Alabama    83996            3</code></pre>
-<pre class="r"><code>head(house, 4)</code></pre>
-<pre><code>##   Office   State CensusPop raceYear       Area RepVotes     RepCandidate
-## 1  House Alabama        NA     2020 District 1   211825      Carl, Jerry
-## 2  House Alabama        NA     2020 District 2   197996     Moore, Barry
-## 3  House Alabama        NA     2020 District 3   217384  Rogers, Mike D.
-## 4  House Alabama        NA     2020 District 4   261553 Aderholt, Robert
+<pre class="r"><code>head(house, 3)</code></pre>
+<pre><code>##   Office   State CensusPop raceYear       Area RepVotes    RepCandidate
+## 1  House Alabama        NA     2020 District 1   211825     Carl, Jerry
+## 2  House Alabama        NA     2020 District 2   197996    Moore, Barry
+## 3  House Alabama        NA     2020 District 3   217384 Rogers, Mike D.
 ##    RepStatus DemVotes            DemCandidate  DemStatus  ThirdParty ThirdVotes
 ## 1 Challenger   116949         Averhart, James Challenger    Write-in        301
 ## 2 Challenger   105286    Harvey-Hall, Phyllis Challenger Libertarian        287
 ## 3  Incumbent   104595 Winfrey, Adia McClellan Challenger    Write-in        255
-## 4  Incumbent    56237         Neighbors, Rick Challenger    Write-in        293
 ##        ThirdCandidate ThirdStatus OtherVotes PluralityVotes PluralityParty
 ## 1 Scattered Write-Ins  Challenger         NA          94876              R
 ## 2        Page, John C  Challenger         NA          92710              R
 ## 3 Scattered Write-Ins  Challenger         NA         112789              R
-## 4 Scattered Write-Ins  Challenger         NA         205316              R
 ##   ThirdVotesTotalPercent RepVotesMajorPercent DemVotesMajorPercent raceNotes
 ## 1                   0.09                64.43                35.57      &lt;NA&gt;
 ## 2                   0.09                65.28                34.72      &lt;NA&gt;
 ## 3                   0.08                67.51                32.49      &lt;NA&gt;
-## 4                   0.09                82.30                17.70      &lt;NA&gt;
 ##   st_fips state_abb    CD district_num district_id WinnerParty TotalVotesMajor
 ## 1       1        AL AL-01            1        AL01           R          328774
 ## 2       1        AL AL-02            2        AL02           R          303282
 ## 3       1        AL AL-03            3        AL03           R          321979
-## 4       1        AL AL-04            4        AL04           R          317790
 ##   vote_margin R_vote_margin
 ## 1   0.2885751        0.2886
 ## 2   0.3056891        0.3056
-## 3   0.3502992        0.3502
-## 4   0.6460745        0.6460</code></pre>
+## 3   0.3502992        0.3502</code></pre>
 
 
 
