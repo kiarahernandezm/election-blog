@@ -20,4 +20,6 @@ house %>%
   select(State, DemVotes, district_num) %>%
   head(3)
 
+head(house, 3)
+
 ```
